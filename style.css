@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(243, 39, 219);
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+  }
+  .container{
+    
+     background-color: #d4fde8;
+     height: 50vh;
+     margin: 0% 20%;
+     border-radius: 100px;
+     border: 5px solid rgb(30, 84, 219);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+  }
+  .form{
+    display: grid;
+    grid-template-columns: auto auto; /*means two rows*/
+    row-gap: 1rem;
+    column-gap: 3rem;
+  }
+  .number-input{
+    width: 2rem;
+  }
+  .passwordDisplay{
+    font-size: 25px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(3, 0, 0);
+    padding: 1rem;
+    height: 2rem;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(44, 41, 243);
+    border-radius: 1rem;
+    word-break: break-all; /*long password breaks into 2 lines*/
+  
+  }
+  button{
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 18px;
+    grid-column: span 2;  /*merges into two columns*/
+    border-radius: 1rem;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: #445D48;
+    color: white;
+  }
+  
